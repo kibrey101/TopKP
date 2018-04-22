@@ -34,7 +34,7 @@ namespace TopHundred.API.Entities
         public User User { get; set; }
         public int TotalTokenCount { get; set; }
         public int Rank { get; set; }          
-        public IEnumerable<string> IcoLinks { get; set; } = new List<string>();
+        public IEnumerable<IcoLink> IcoLinks { get; set; } = new List<IcoLink>();
 
     }
 }
